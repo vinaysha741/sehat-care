@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sehat Care Free Health Camp registration website">
+  <title>Health camp Registration Portal </title>
+  <!-- STEP 1: Load the main stylesheet. -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- STEP 2: Site navigation -->
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#home" aria-label="Sehat Care home">
+        <span class="brand-icon">+</span>
+        <span>Sehat<span>Care</span></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#register">Register</a>
+        <a href="#staff">Staff</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- STEP 3:  section with a real health-camp photograph.
+         Photo source: Morpheus Foundation India community health camp.
+         Keep the source credit below the image if publishing the site. -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow">COMMUNITY HEALTH INITIATIVE</div>
+          <h1>Free Health Camp.<br><span>Better Health Starts Here.</span></h1>
+          <p>Get essential health screenings and a consultation with healthcare professionals. Registration is quick, simple, and free.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#register">Register Now <span>→</span></a>
+            <a class="btn btn-light" href="#services">View Services</a>
+          </div>
+          <div class="quick-facts">
+            <div><strong>25 Oct 2026</strong><small>Camp Date</small></div>
+            <div><strong>9 AM – 4 PM</strong><small>Camp Hours</small></div>
+            <div><strong>100% Free</strong><small>Registration</small></div>
+          </div>
+        </div>
+
+        <div class="hero-photo-card">
+          <img
+            src="https://morpheusfoundationindia.com/resources/assets/images/slide22.png"
+            alt="Doctors providing health checks at a free community health camp"
+            class="hero-photo"
+          >
+          <div class="photo-caption">
+            <span class="badge">FREE CHECK-UP</span>
+            <strong>Community care in action</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 4: About section -->
+    <section class="section" id="about">
+      <div class="container two-col">
+        <div>
+          <div class="eyebrow">ABOUT THE CAMP</div>
+          <h2>Healthcare that comes closer to you.</h2>
+          <p class="lead">Sehat Care is a community-focused health camp designed to make basic screenings and professional guidance more accessible.</p>
+          <p>Our team helps visitors understand common health measurements and connect with healthcare professionals. The camp is intended for general screening and does not replace emergency medical care.</p>
+        </div>
+        <div class="info-panel">
+         <div class="info-row"><span><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></span><div><strong>Sunday, 25 October 2026</strong><small>9:00 AM – 4:00 PM</small></div></div>
+         <div class="info-row"><span><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span><div><strong>Community Health Center</strong><small>Main Community Hall</small></div></div>
+         <div class="info-row"><span><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2z"/><line x1="13" y1="5" x2="13" y2="7"/><line x1="13" y1="11" x2="13" y2="13"/><line x1="13" y1="17" x2="13" y2="19"/></svg></span><div><strong>Free registration</strong><small>Limited appointment slots</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 5: Health services -->
+    <section class="section section-muted" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <div class="eyebrow">WHAT WE OFFER</div>
+            <h2>Health services</h2>
+          </div>
+          <p>Simple preventive screenings to help you keep track of your health.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card"><div class="service-icon">🩺</div><h3>General Check-up</h3><p>Basic health assessment and doctor consultation.</p></article>
+          <article class="service-card"><div class="service-icon">♥</div><h3>Blood Pressure</h3><p>Quick blood pressure screening and guidance.</p></article>
+          <article class="service-card"><div class="service-icon">◉</div><h3>Blood Sugar</h3><p>Basic blood glucose screening.</p></article>
+          <article class="service-card"><div class="service-icon">⚖</div><h3>BMI Check</h3><p>Height, weight and BMI measurement.</p></article>
+          <article class="service-card"><div class="service-icon">👁</div><h3>Eye Check-up</h3><p>Basic vision screening and referral guidance.</p></article>
+          <article class="service-card"><div class="service-icon">✦</div><h3>Dental Check-up</h3><p>Basic oral health screening and advice.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 6: Real-photo gallery -->
+    <section class="section" id="gallery">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <div class="eyebrow">REAL CAMP PHOTOS</div>
+            <h2>See community care</h2>
+          </div>
+        </div>
+        <div class="gallery-grid">
+          <figure class="gallery-card">
+            <img src="https://morpheusfoundationindia.com/resources/assets/images/slide22.png"
+                 alt="Medical team conducting a free community health camp">
+            <figcaption>Community health screening</figcaption>
+          </figure>
+          <figure class="gallery-card">
+            <img src="https://www.felixhospital.com/sites/default/files/2022-06/Free%20Health%20Checkup%20Camp%20in%20Yusufpur%20Chak%20Saberi%20Village%2C%20Noida.jpg"
+                 alt="Doctor consulting a patient at a free health check-up camp">
+            <figcaption>Doctor consultation at a health camp</figcaption>
+          </figure>
+          <figure class="gallery-card">
+            <img src="https://www.bemlindia.in/wp-content/uploads/2022/05/beml6.jpg"
+                 alt="Doctor examining a patient during a mobile health care camp">
+            <figcaption>Mobile health care outreach</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 7: Registration form -->
+    <section class="section" id="register">
+      <div class="container form-wrap">
+        <div class="section-heading centered">
+          <div class="eyebrow">SAVE YOUR SLOT</div>
+          <h2>Health camp registration</h2>
+          <p>Fill in your details below. Fields marked with * are required.</p>
+        </div>
+
+        <form id="registrationForm" novalidate>
+          <div class="form-section">
+            <h3>Personal information</h3>
+            <div class="form-grid">
+              <label>Full Name *<input type="text" id="fullName" name="fullName" autocomplete="name" required></label>
+              <label>Age *<input type="number" id="age" name="age" min="1" max="120" required></label>
+              <label>Gender *
+                <select id="gender" name="gender" required>
+                  <option value="">Select gender</option><option>Female</option><option>Male</option><option>Other</option><option>Prefer not to say</option>
+                </select>
+              </label>
+              <label>Phone Number *<input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="+91 98765 43210" required></label>
+              <label class="full">Email (optional)<input type="email" id="email" name="email" autocomplete="email" placeholder="you@example.com"></label>
+              <label class="full">Address *<textarea id="address" name="address" rows="3" required></textarea></label>
+            </div>
+          </div>
+
+          <div class="form-section">
+            <h3>Appointment</h3>
+            <div class="form-grid">
+              <label>Preferred Date *
+                <select id="date" name="date" required>
+                  <option value="">Select date</option>
+                  <option value="2026-10-25">25 October 2026</option>
+                </select>
+              </label>
+              <label>Preferred Time Slot *
+                <select id="timeSlot" name="timeSlot" required>
+                  <option value="">Select time</option>
+                </select>
+              </label>
+              <p class="slot-info full" id="slotInfo">Each time slot has limited seats.</p>
+              <label class="full">Health concern / reason for visit *<textarea id="concern" name="concern" rows="3" placeholder="Briefly tell us what you would like checked." required></textarea></label>
+              <label class="full">Existing medical conditions (optional)<textarea id="conditions" name="conditions" rows="3" placeholder="Optional"></textarea></label>
+            </div>
+          </div>
+
+          <div class="form-section">
+            <h3>Emergency contact <span>(optional)</span></h3>
+            <div class="form-grid">
+              <label>Contact Name<input type="text" id="emergencyName" name="emergencyName"></label>
+              <label>Contact Phone<input type="tel" id="emergencyPhone" name="emergencyPhone"></label>
+            </div>
+          </div>
+
+          <div class="form-section">
+            <h3>Reminder <span>(optional)</span></h3>
+            <div class="form-grid">
+              <label class="check-line full"><input type="checkbox" id="wantReminder"> Remind me before the camp day</label>
+              <label>Reminder by
+                <select id="reminderType"><option>SMS</option><option>WhatsApp</option><option>Email</option></select>
+              </label>
+              <label>Remind me
+                <select id="reminderWhen"><option>1 day before</option><option>2 hours before</option></select>
+              </label>
+            </div>
+          </div>
+
+          <label class="consent">
+            <input type="checkbox" id="consent" required>
+            <span>I agree that the information provided may be used only for managing my health camp registration and appointment.</span>
+          </label>
+          <p class="privacy-note">Privacy note: health details (concern and conditions) never appear in staff reports. This demo stores registrations only in this browser.</p>
+          <div id="formMessage" class="form-message" role="alert" aria-live="polite"></div>
+          <button class="btn btn-primary submit-btn" type="submit">Complete Registration <span>→</span></button>
+        </form>
+
+        <!-- STEP 8: Confirmation shown after successful registration -->
+        <div id="confirmation" class="confirmation hidden" aria-live="polite">
+          <div class="success-icon">✓</div>
+          <div class="badge">REGISTRATION SUCCESSFUL</div>
+          <h2>You're registered!</h2>
+          <p>Your appointment has been saved on this device.</p>
+          <div class="confirmation-card" id="confirmationDetails"></div>
+          <div class="hero-actions">
+            <button class="btn btn-primary" id="printBtn" type="button">Print Confirmation</button>
+            <button class="btn btn-light" id="newRegistrationBtn" type="button">Register Another Person</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEW: Staff panel (attendance, reminders, private reports) -->
+    <section class="section section-muted" id="staff">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <div class="eyebrow">CAMP STAFF ONLY</div>
+            <h2>Staff Panel</h2>
+            
+          </div>
+          <p>Manage attendance, reminders and reports. Demo PIN: 1234</p>
+        </div>
+        <div id="lockBox" class="staff-box">
+          
+          <label>Enter staff PIN <input type="password" id="pinInput" maxlength="8"></label>
+          <button class="btn btn-primary" id="unlockBtn" type="button">Unlock</button>
+          <p id="pinMessage" class="pin-message"></p>
+        </div>
+
+        <div id="staffBox" class="hidden">
+          <div class="staff-box">
+            <h1>Registered Participants</h1>
+            <label class="check-line"><input type="checkbox" id="hideDetails" checked> Hide names and phone numbers (privacy)</label>
+            <p id="summary"></p>
+            <div class="hero-actions">
+              <button class="btn btn-primary" id="remindBtn" type="button">Send reminders</button>
+              <button class="btn btn-light" id="csvBtn" type="button">Download report (CSV)</button>
+              <button class="btn btn-light" id="lockBtn" type="button">Lock panel</button>
+              <button class="btn btn-light" id="deleteBtn" type="button">Delete all data</button>
+            </div>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>ID</th><th>Name</th><th>Phone</th><th>Time slot</th><th>Reminder</th><th>Attendance</th></tr></thead>
+              <tbody id="regTable"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 9: Call-to-action -->
+    <section class="cta">
+      <div class="container cta-inner">
+        <div><div class="eyebrow">NEED HELP?</div><h2>Have a question about the camp?</h2><p>Call our camp support team for registration assistance.</p></div>
+        <a class="btn btn-light" href="tel:+911800123456">Call +91 1800 123 456</a>
+      </div>
+    </section>
+
+    <!-- STEP 10: Contact -->
+    <section class="section contact-section" id="contact">
+      <div class="container two-col">
+        <div>
+          <div class="eyebrow">CONTACT</div>
+          <h2>Find the camp</h2>
+          <p>Community Health Center, Main Community Hall</p>
+          <p><strong>Phone:</strong> +91 1800 123 456<br><strong>Email:</strong> hello@sehatcare.example</p>
+        </div>
+        <div class="map-placeholder"><span>📍</span><strong>Community Health Center</strong></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- STEP 11: Footer -->
+  <footer>
+    <div class="container footer-inner">
+      <div class="brand"><span class="brand-icon">+</span><span>Sehat<span>Care</span></span></div>
+      <p>© 2026 Sehat Care Health Camp. For general screening only.</p>
+    </div>
+  </footer>
+
+  
+  <script src="script.js"></script>
+</body>
+</html>
+ 
